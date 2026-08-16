@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Weather cache
+data/cache/*
+!data/cache/.gitkeep
+
+# Generated exports
+data/exports/*
+!data/exports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
